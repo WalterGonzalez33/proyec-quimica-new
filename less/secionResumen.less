@@ -6,9 +6,22 @@
 .resumen{
     width: 100%;
     height: 500px;
-    background-image:url("../img/fondoVerde.jpg") ;
+    border-bottom-left-radius:35px ;
+    border-bottom-right-radius:35px ;
+    background-image:url("../img/fondoAmarillo.lpg.jpg") ;
     background-size: cover;
+    z-index: 900;
+    position: relative;
+    top: 130px;
     margin-top:0 ;
+    &::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        display:block;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.19);
+    }
 
     .flex-container{
         display: flex;
@@ -69,6 +82,7 @@
         height: 560px;
         background-size: cover;
         margin-top:0 ;
+        top: 120px;
     
         .flex-container{
             display: flex;
