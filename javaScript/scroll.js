@@ -32,7 +32,7 @@ var metScroll = {
 		e.preventDefault();
 		clearInterval(propScroll.intervalo);
 		propScroll.destino = this.getAttribute('href');
-		propScroll.seccion_distancia = document.querySelector(propScroll.destino).offsetTop - 110;
+		propScroll.seccion_distancia = document.querySelector(propScroll.destino).offsetTop - 130;
 
 		propScroll.posicion = window.pageYOffset;
 		propScroll.intervalo = setInterval(function () {

@@ -1,9 +1,11 @@
+// parallax 2
+
 (function(){
 
 	// Objeto con Propiedades de Parallax
 var propParallax = {
 
-	seccion: document.querySelector('.parallax'),
+	seccion: document.querySelector('.parallax2'),
 	recorrido: null,
 	limite: null
 

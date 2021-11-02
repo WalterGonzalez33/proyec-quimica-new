@@ -210,6 +210,13 @@ body {
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/ptsans/v12/jizYRExUiTo99u79D0eEwA.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAnsSkZg.ttf) format('truetype');
+}
 .resumen {
   width: 100%;
   height: 500px;
@@ -263,17 +270,28 @@ body {
 .resumen .flex-container .texto .nombreProf {
   width: 100%;
   font-size: 43px;
-  color: rgba(0, 0, 0, 0.75);
   font-family: 'Work Sans', sans-serif;
   margin-left: 20px;
 }
+.resumen .flex-container .texto .nombreProf .nombreProfesora {
+  color: #0dbb88;
+  display: inline;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.931);
+}
+.resumen .flex-container .texto .nombreProf .prof {
+  color: rgba(0, 0, 0, 0.75);
+  text-shadow: none;
+}
 .resumen .flex-container .texto .textResumen {
   font-size: 21px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: rgba(0, 0, 0, 0.75);
   margin-left: 20px;
   margin-bottom: 120px;
   font-weight: 500;
+}
+.resumen .flex-container .texto .textResumen b {
+  font-family: 'Work Sans', sans-serif;
 }
 .resumen .flex-container .imagenLaboratorio {
   width: 50%;
